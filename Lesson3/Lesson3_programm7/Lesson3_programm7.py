@@ -1,0 +1,7 @@
+def f(year):
+    if (year%4==0)and(year%100!=0)or(year%400==0):
+        print('високосный')
+    else:
+        print('обычный')
+year=int(input())
+print(f(year))
