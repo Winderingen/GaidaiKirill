@@ -1,3 +1,5 @@
+def f(n):
+    for i in range(n):
+        print(i**2)    
 n=int(input())
-for i in range(n):
-    print(i**2)
+print(f(n))

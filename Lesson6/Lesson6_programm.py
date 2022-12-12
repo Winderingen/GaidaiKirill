@@ -1,3 +1,5 @@
+def f(S):
+    C=S.replace('а','')
+    print(len(S)-len(C))    
 S=input()
-C=S.replace('а','')
-print(len(S)-len(C))
+print(f(S))
